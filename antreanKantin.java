@@ -2,16 +2,14 @@ import java.util.Scanner;
 
 public class antreanKantin {
     public static void main(String[] args) {
-        // Membuat object Scanner untuk membaca input dari keyboard
+
         Scanner input = new Scanner(System.in);
 
-        // 1. Deklarasi Variabel
         String namaPembeli;
         int jumlahMakanan;
         int hargaMakanan;
         int totalPembayaran;
 
-        // 2. Bagian Input
         System.out.print("Masukkan nama pembeli: ");
         namaPembeli = input.nextLine();
 
@@ -21,10 +19,8 @@ public class antreanKantin {
         System.out.print("Masukkan harga satu makanan: Rp");
         hargaMakanan = input.nextInt();
 
-        // 3. Bagian Proses (Perhitungan)
         totalPembayaran = jumlahMakanan * hargaMakanan;
 
-        // 4. Bagian Output
         System.out.println("\n=== DETAIL PEMBAYARAN ===");
         System.out.println("Nama Pembeli: " + namaPembeli);
         System.out.println("Total yang harus dibayar: Rp" + totalPembayaran);
