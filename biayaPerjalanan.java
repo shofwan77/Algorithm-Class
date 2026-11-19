@@ -20,7 +20,7 @@ public class biayaPerjalanan {
         System.out.print("Masukkan tarif parkir: Rp");
         tarifParkir = input.nextInt();
 
-        totalBiaya = (jarakTempuh * tarifPerKm) + tarifParkir;
+        totalBiaya = jarakTempuh * tarifPerKm + tarifParkir;
 
         System.out.println("\n=== DETAIL BIAYA PERJALANAN ===");
         System.out.println("Total biaya perjalanan: Rp" + totalBiaya);
