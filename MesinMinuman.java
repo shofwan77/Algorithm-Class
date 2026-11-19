@@ -12,19 +12,19 @@ public class MesinMinuman {
         System.out.println("4. Susu");
 
         System.out.print("Pilih minuman: ");
-        int pilihan = input.nextInt();
+        String pilihan = input.next();
 
-        switch (pilihan) {
-            case 1:
+        switch (pilihan.toLowerCase()) {
+            case "air mineral":
                 System.out.println("Air Mineral = Rp5.000");
                 break;
-            case 2:
+            case "teh":
                 System.out.println("Teh = Rp4.000");
                 break;
-            case 3:
+            case "kopi":
                 System.out.println("Kopi = Rp7.000");
                 break;
-            case 4:
+            case "susu":
                 System.out.println("Susu = Rp6.000");
                 break;
             default:
