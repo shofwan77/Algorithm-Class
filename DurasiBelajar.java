@@ -10,7 +10,7 @@ public class DurasiBelajar {
 
         System.out.println("=== DATA DURASI BELAJAR ===");
 
-        // Menampilkan seluruh data
+        
         for (int i = 0; i < durasi.length; i++) {
             System.out.println("Hari ke-" + (i + 1) + ": " + durasi[i] + " menit");
 
@@ -25,7 +25,7 @@ public class DurasiBelajar {
             }
         }
 
-        // Menghitung rata-rata
+        
         double rataRata = (double) total / durasi.length;
 
         System.out.println("\nTotal durasi: " + total + " menit");

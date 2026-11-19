@@ -10,6 +10,7 @@ public class MesinMinuman {
         System.out.println("2. Teh");
         System.out.println("3. Kopi");
         System.out.println("4. Susu");
+        System.out.println("5. Jus");
 
         System.out.print("Pilih minuman: ");
         String pilihan = input.next();
@@ -27,6 +28,9 @@ public class MesinMinuman {
             case "susu":
                 System.out.println("Susu = Rp6.000");
                 break;
+            case "jus":
+                System.out.println("Jus = Rp8.000");
+                break;    
             default:
                 System.out.println("Pilihan tidak tersedia!");
         }
